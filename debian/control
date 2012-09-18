@@ -1,0 +1,13 @@
+Source: openfire-tuleap-plugins
+Section: net
+Priority: optional
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
+Homepage: http://www.igniterealtime.org/projects/openfire/plugins.jsp
+
+Package: openfire-tuleap-plugins
+Architecture: all
+Depends: ${misc:Depends}
+Description: Openfire Tuleap plugins
+ A set of openfire plugins requested for integration with Codendi.
